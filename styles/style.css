@@ -17,7 +17,7 @@ body {
 }
 .heading {
     font-size: 36px;
-    text-align: center;
+    -align: center;
 }
 .heading__mini {
     font-size: 20px;

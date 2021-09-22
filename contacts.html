@@ -10,47 +10,62 @@
 </head>
 
 <body>
-    <ul>
+    <ul class="header">
         <li><a href="index.html">Главная</a></li>
         <li><a href="contacts.html">Контакты</a></li>
     </ul>
-    <h2 class="contacts__heading">Contac Us</h2>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, dolor?</p>
-    <img src="images/pic1.jpeg" alt="our_picture">
+    <div class="contacts-header">
+        <h2 class="contacts__heading">Contact Us</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, dolor?</p>
+    </div>
     <form action="#">
-        <h4 class="heading__mini">Address</h4>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <h4 class="heading__mini">Phone</h4>
-        <ul>
-            <li>+7 914 087 25 26</li>
-            <li>+7 938 389 27 38</li>
-        </ul>
-        <h4 class="heading__mini">Online service</h4>
-        <ul>
-            <li>www.somehost.com</li>
-            <li>ourname@somehost.com</li>
-        </ul>
-        <p class="text">Произвольный адрес и номер телефона <br>
-            + 1 896 234 34 65</p>
-        <h4 class="heading__mini">Send us message</h4>
-
-        Full Name <input class="input-text" type="text" placeholder="Ivan Ivanov"><br>
-        E-mail <input class="input-text" type="email" placeholder="IIvan@somehost.com"><br>
-        Message <textarea class="input-text" name="" id="" cols="30" rows="10"
-            placeholder="type your message here"></textarea><br>
-        <button class="button-submit" type="submit">submit</button>
+        <div class="contacts-info">
+            <img src="images/pic1.jpeg" alt="our_picture">
+            <h4 class="heading__mini">Address</h4>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h4 class="heading__mini">Phone</h4>
+            <ul>
+                <li>+7 914 087 25 26</li>
+                <li>+7 938 389 27 38</li>
+            </ul>
+            <h4 class="heading__mini">Online service</h4>
+            <ul>
+                <li>www.somehost.com</li>
+                <li>ourname@somehost.com</li>
+            </ul>
+            <p class="text">Произвольный адрес и номер телефона <br>
+                + 1 896 234 34 65</p>
+        </div>
+        <div class="form">
+            <h4 class="heading__mini">Send us message</h4>
+            Full Name <input class="input-text" type="text" placeholder="Ivan Ivanov"><br>
+            E-mail <input class="input-text" type="email" placeholder="IIvan@somehost.com"><br>
+            Message <textarea class="input-text" name="" id="" cols="30" rows="10"
+                placeholder="type your message here"></textarea><br>
+            <button class="button-submit" type="submit">submit</button>
+        </div>
     </form>
     <script type="text/javascript" charset="utf-8" async
         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4482b06d329a4ab54d85c8d0274691a445e0a0b9872d15995902f414317ed55b&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-    <h3 class="heading">Lorem, ipsum dolor.</h3>
-    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quisquam?</p>
-    <hr>
-    <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>+7 939 389 27 38</li>
-        <li>shamusg12345@gmail.com</li>
-    </ul>
-    <p class="text">Все права защищены</p>
+    <div class="footer">
+        <div class="footer__top">
+            <div class="footer__text">
+                <h3 class="heading">Interested to work in our team?</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quisquam?</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__bottom">
+            <ul class="footer__info">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>+7 939 389 27 38</li>
+                <li>shamusg12345@gmail.com</li>
+            </ul>
+            <div class="footer__copy">
+                <p class="text">Все права защищены</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
