@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: sans-serif;
 }
@@ -13,7 +9,6 @@ body {
 .top__heading {
     font-size: 64px;
     color: #1F3F68;
-    width: 510px;
 }
 .contacts__heading{
     font-weight: 500;
@@ -45,29 +40,4 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
-}
-.container {
-    width: 1140px;
-    margin: 0 auto;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-.top__text {
-    width: 425px;
-}
-.card-box {
-    display: flex;
-    justify-content: space-between;
-}
-.footer__info {
-    display: flex;
-    justify-content: space-between;
-}
-.footer__info li {
-    flex-grow: 1;
-}
-.main {
-    display: flex;
 }
